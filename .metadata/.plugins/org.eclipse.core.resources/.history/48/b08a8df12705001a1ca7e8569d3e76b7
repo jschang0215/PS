@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : KiwiJuice.cpp
+// Author      : JSChang
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	vector<int> capacities = {20, 20}, bottles = {5, 8},
+			fromId = {0}, toId = {1};
+	for(int i=0; i<fromId.size(); i++) {
+		int sum = bottles[fromId[i]]+bottles[toId[i]];
+		bottles[toId] = min(sum, capacities[toId[i]]);
+		bottles[fromId] = sum-bottles[toId];
+	}
+	return 0;
+}

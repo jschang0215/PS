@@ -1,0 +1,15 @@
+12:49:58 **** Incremental Build of configuration Debug for project ThePalindrome ****
+make all 
+Building file: ../src/ThePalindrome.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ThePalindrome.d" -MT"src/ThePalindrome.o" -o "src/ThePalindrome.o" "../src/ThePalindrome.cpp"
+Finished building: ../src/ThePalindrome.cpp
+ 
+Building target: ThePalindrome
+Invoking: MacOS X C++ Linker
+g++  -o "ThePalindrome"  ./src/ThePalindrome.o   
+Finished building target: ThePalindrome
+ 
+
+12:50:01 Build Finished. 0 errors, 0 warnings. (took 3s.231ms)
+

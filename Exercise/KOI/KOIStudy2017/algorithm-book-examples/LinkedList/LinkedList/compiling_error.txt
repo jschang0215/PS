@@ -1,0 +1,6 @@
+In file included from /Users/jschang/Documents/koi/algorithm-book-examples/LinkedList/LinkedList/LinkedList.cpp:4:
+In file included from /Users/jschang/Documents/koi/algorithm-book-examples/LinkedList/LinkedList/stdafx.h:8:
+/Users/jschang/Documents/koi/algorithm-book-examples/LinkedList/LinkedList/targetver.h:8:10: fatal error: 'SDKDDKVer.h' file not found
+#include <SDKDDKVer.h>
+         ^~~~~~~~~~~~~
+1 error generated.

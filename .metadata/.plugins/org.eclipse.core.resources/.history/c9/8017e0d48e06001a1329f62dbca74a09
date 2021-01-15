@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : InterestingDigits.cpp
+// Author      : JSChang
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+	int base;
+	cin >> base;
+	vector<int> returns;
+	for(int i=2; i<base-1; i++) {
+		if(base%i==0) returns.push_back(i);
+	}
+	for(int x : returns) cout << x << " ";
+	cout << endl;
+	return 0;
+}

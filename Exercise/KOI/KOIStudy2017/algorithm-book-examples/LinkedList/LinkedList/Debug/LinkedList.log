@@ -1,0 +1,4 @@
+﻿  LinkedList.cpp
+c:\users\2002c\desktop\koi study\algorithm\linkedlist\linkedlist\linkedlist.cpp(51): warning C4101: 'current' :참조되지 않은 지역 변수입니다.
+  LinkedList.vcxproj -> C:\Users\2002c\Desktop\KOI Study\Algorithm\LinkedList\Debug\LinkedList.exe
+  LinkedList.vcxproj -> C:\Users\2002c\Desktop\KOI Study\Algorithm\LinkedList\Debug\LinkedList.pdb (Partial PDB)

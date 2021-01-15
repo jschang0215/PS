@@ -1,0 +1,19 @@
+12:28:33 **** Incremental Build of configuration Debug for project InterestingDigits ****
+make all 
+Building file: ../src/InterestingDigits.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/InterestingDigits.d" -MT"src/InterestingDigits.o" -o "src/InterestingDigits.o" "../src/InterestingDigits.cpp"
+../src/InterestingDigits.cpp:20:12: warning: range-based for loop is a C++11 extension [-Wc++11-extensions]
+        for(int x : returns) cout << x << " ";
+                  ^
+1 warning generated.
+Finished building: ../src/InterestingDigits.cpp
+ 
+Building target: InterestingDigits
+Invoking: MacOS X C++ Linker
+g++  -o "InterestingDigits"  ./src/InterestingDigits.o   
+Finished building target: InterestingDigits
+ 
+
+12:28:34 Build Finished. 0 errors, 1 warnings. (took 755ms)
+

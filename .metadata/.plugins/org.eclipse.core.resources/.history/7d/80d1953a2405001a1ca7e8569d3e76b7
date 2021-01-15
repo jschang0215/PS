@@ -1,0 +1,77 @@
+//============================================================================
+// Name        : InterestingParty.cpp
+// Author      : JSChang
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+#include <vector>
+#include <string>
+#include <time.h>
+#include <fstream>
+#include <stdio.h>
+#include <stdlib.h>
+
+#define TEST_CASE 20
+
+using namespace std;
+
+int main() {
+	vector<string> wordList;
+	wordList=  {"python", "c", "c++", "java", "c#", "javascript",
+			"lua", "swift", "ruby", "php", "go", "basic", "visual basic", "objective-c",
+			"lisp", "cobol", "assembly", "matlab", "awk", "d", "f#", "fortran", "jquery",
+			"perl", "r", "scala", "sql"
+	};
+
+	vector<string> first;
+	vector<string> second;
+
+	srand(time(NULL));
+
+	for(int t=0; t<TEST_CASE; t++) {
+//		int dataNum = rand()%((50000000))+10000000;
+		int dataNum = 10;
+
+		for(int i=0; i<dataNum; i++) {
+			first.push_back(wordList[rand()%(wordList.size())]);
+			second.push_back(wordList[rand()%(wordList.size())]);
+		}
+
+		string inputFilePath = "intput"+to_string(t)+".txt";
+		ofstream writeFile(inputFilePath.data());
+
+		writeFile << to_string(dataNum) + "\n";
+
+		for(auto x : first) {
+			writeFile << x + " ";
+		}
+		writeFile << "\n";
+		for(auto x : second) {
+			writeFile << x + "\n";
+		}
+
+		writeFile.close();
+
+		map<string, int> dic;
+
+		for(int i=0; i<first.size(); i++) {
+			dic[first[i]] = 0;
+			dic[second[i]] = 0;
+		}
+
+		for(int i=0; i<first.size(); i++) {
+			dic[first[i]]++;
+			dic[second[i]]++;
+		}
+
+		int ans = 0;
+		for(auto it=dic.begin(); it!=dic.end(); it++) {
+			ans = max(ans, it->second);
+		}
+	}
+	return 0;
+}

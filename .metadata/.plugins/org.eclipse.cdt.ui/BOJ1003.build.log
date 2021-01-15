@@ -1,0 +1,6 @@
+17:14:20 **** Incremental Build of configuration Debug for project BOJ1003 ****
+make all 
+make: Nothing to be done for `all'.
+
+17:14:20 Build Finished. 0 errors, 0 warnings. (took 78ms)
+

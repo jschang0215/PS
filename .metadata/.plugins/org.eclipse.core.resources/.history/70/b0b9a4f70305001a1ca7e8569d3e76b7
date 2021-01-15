@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : InterestingParty.cpp
+// Author      : JSChang
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+#include <vector>
+#include <string>
+using namespace std;
+
+int main() {
+	vector<string> first = {"python", "c++", "c#", "c"};
+	vector<string> second = {"c", "python", "python", "c++"};
+	map<string, int> dic;
+
+	for(int i=0; i<first.size(); i++) {
+		dic[first[i]] = 0;
+		dic[second[i]] = 0;
+	}
+
+	for(int i=0; i<first.size(); i++) {
+		dic[first[i]]++;
+		dic[second[i]]++;
+	}
+
+	int ans = 0;
+	map<string, int>::iterator it;
+	for(it=dic.begin(); it!=dic.end(); it++) {
+		ans = max(ans, it->second);
+	}
+
+	cout << ans << endl;
+	return 0;
+}

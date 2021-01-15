@@ -1,0 +1,45 @@
+12:47:20 **** Incremental Build of configuration Debug for project ThePalindrome ****
+make all 
+make: Nothing to be done for `all'.
+12:47:21 **** Incremental Build of configuration Debug for project ThePalindrome ****
+make all 
+make: Nothing to be done for `all'.
+12:48:14 **** Build of configuration Debug for project ThePalindrome ****
+make all 
+Building file: ../src/ThePalindrome.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ThePalindrome.d" -MT"src/ThePalindrome.o" -o "src/ThePalindrome.o" "../src/ThePalindrome.cpp"
+Finished building: ../src/ThePalindrome.cpp
+ 
+Building target: ThePalindrome
+Invoking: MacOS X C++ Linker
+g++  -o "ThePalindrome"  ./src/ThePalindrome.o   
+Finished building target: ThePalindrome
+ 
+12:49:37 **** Incremental Build of configuration Debug for project ThePalindrome ****
+make all 
+Building file: ../src/ThePalindrome.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ThePalindrome.d" -MT"src/ThePalindrome.o" -o "src/ThePalindrome.o" "../src/ThePalindrome.cpp"
+Finished building: ../src/ThePalindrome.cpp
+ 
+Building target: ThePalindrome
+Invoking: MacOS X C++ Linker
+g++  -o "ThePalindrome"  ./src/ThePalindrome.o   
+Finished building target: ThePalindrome
+ 
+12:49:41 **** Incremental Build of configuration Debug for project ThePalindrome ****
+make all 
+make: Nothing to be done for `all'.
+12:49:58 **** Incremental Build of configuration Debug for project ThePalindrome ****
+make all 
+Building file: ../src/ThePalindrome.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ThePalindrome.d" -MT"src/ThePalindrome.o" -o "src/ThePalindrome.o" "../src/ThePalindrome.cpp"
+Finished building: ../src/ThePalindrome.cpp
+ 
+Building target: ThePalindrome
+Invoking: MacOS X C++ Linker
+g++  -o "ThePalindrome"  ./src/ThePalindrome.o   
+Finished building target: ThePalindrome
+ 

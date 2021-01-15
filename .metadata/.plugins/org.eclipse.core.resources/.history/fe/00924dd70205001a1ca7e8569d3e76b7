@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : InterestingParty.cpp
+// Author      : JSChang
+// Version     :
+// Copyright   : All rights reserved
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <>
+using namespace std;
+
+int main() {
+
+	return 0;
+}

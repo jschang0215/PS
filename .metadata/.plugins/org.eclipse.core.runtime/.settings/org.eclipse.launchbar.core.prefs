@@ -1,0 +1,15 @@
+LaunchTargetManager/configs/HelloWorld=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/STLPractice=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:BOJ2748,org.eclipse.launchbar.core.descriptorType.default\:STLPractice,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld,org.eclipse.launchbar.core.descriptorType.default\:BOJ1003,org.eclipse.launchbar.core.descriptorType.default\:InterestingParty,org.eclipse.launchbar.core.descriptorType.default\:InterestingDigits,org.eclipse.launchbar.core.descriptorType.default\:KiwiJuice,org.eclipse.launchbar.core.descriptorType.default\:ThePalindrome
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:BOJ2748/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:BOJ2748/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:KiwiJuice/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:KiwiJuice/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:STLPractice/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:STLPractice/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
